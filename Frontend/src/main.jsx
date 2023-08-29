@@ -9,14 +9,12 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Sidebar />,
-    
-  },
+  // children: [
+  //       {
+          
+  //       },]
+  } 
 ]);
-/*children: [
-      {
-        path: "contacts/:contactId",
-        element: <Contact />,
-      },] */
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/>
