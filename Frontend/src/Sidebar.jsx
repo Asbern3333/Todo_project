@@ -23,5 +23,16 @@ return(
 
     </div>
 )
-
+//  <NavLink
+//                     to={`contacts/${contact.id}`}
+//                     className={({ isActive, isPending }) =>
+//                       isActive
+//                         ? "active"
+//                         : isPending
+//                         ? "pending"
+//                         : ""
+//                     }
+//                   >
+//                     {/* other code */}
+//                   </NavLink> 
 }
