@@ -1,5 +1,25 @@
 notes for next times
 
+to use prettier write `Shift + Alt + F`
+
+```css
+border-solid border-2 border-r border-b border-black
+r for row and b for column
+also we can
+border-y-black   border-x-black
+```
+
+changeign the color button
+```jsx
+const [buttoncolor,Setbuttoncolor] = useState(false);
+  function changecolor() {
+    Setbuttoncolor(!buttoncolor);
+  }
+
+
+tailwind
+{buttoncolor ?"bg-slate-600":"bg-red-500" }
+```
 
 Routes
 if you want the childernworks put the ` <Outlet />` in the place of the childern
